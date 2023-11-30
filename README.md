@@ -1,7 +1,7 @@
 # CrosswordGenerator
 Generates crosswords with multiple solutions
 
-##Creating a Puzzle structure
+## Creating a Puzzle structure
 
 ```java
 //create initial board state
