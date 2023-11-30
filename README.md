@@ -14,7 +14,7 @@ p.insertWord("      ",1,5,true); //inserts 6 empty cells starting from (1,5) goi
 p.insertWord("     ", 6,2, false); //inserts 5 empty cells starting from (6,2) going across since isDown is false
 ```
 
-## Check the Structure of board
+## Checking the structure of the Board
 ```java
 p.printStructure();
 ```
@@ -40,7 +40,7 @@ p.printStructure();
 |   |   |   |   |   |   |   |   |   | 9
 +---+---+---+---+---+---+---+---+---+
 ```
-## Using Generator Class
+## Using the Generator Class
 ```java
 Generator g = new Generator();
 ArrayList<Puzzle> gens = g.generatePuzzle(p); //generate puzzle given initial board state and returns ArrayList<Puzzle> (may be empty if no valid configs reached)
