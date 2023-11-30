@@ -14,7 +14,6 @@ public class Main {
         ArrayList<Puzzle> bestGen = g.generatePuzzle(p);
         int bestDiff = g.evaluateDifference(bestGen);
         for (int i = 0; i < 200000; i++) {
-            if(i % 1000 == 0) System.out.println(i);
             ArrayList<Puzzle> nextGen = g.generatePuzzle(p);
             int currDiff = g.evaluateDifference(nextGen);
             if(currDiff > bestDiff) {
